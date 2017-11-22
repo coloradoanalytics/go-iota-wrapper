@@ -53,7 +53,10 @@ func (c *Client) do(command Command, result interface{}) error {
 		return err
 	}
 
-	json.NewDecoder(res.Body).Decode(result)
+	if result != nil {
+		json.NewDecoder(res.Body).Decode(result)
+
+	}
 
 	return nil
 }
