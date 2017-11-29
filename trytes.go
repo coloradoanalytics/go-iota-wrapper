@@ -1,4 +1,4 @@
-package iota
+package goiw
 
 type Trytes struct {
 	Trytes []string `json:"trytes"`

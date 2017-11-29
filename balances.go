@@ -1,4 +1,4 @@
-package iota
+package goiw
 
 type Balances struct {
 	Balances       []string `json:"balances"`

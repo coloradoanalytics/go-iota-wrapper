@@ -1,4 +1,4 @@
-package iota
+package goiw
 
 type InclusionStates struct {
 	States   []bool `json:"states"`
